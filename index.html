@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <nav>
+        <p>Prerna Chawla</p>
+        <div><a href="">About</a></div>
+        <div><a href="">Skills</a></div>
+        <div><a href="">Projects</a></div>
+        <div><a href="">Contact Me</a></div>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="about">
+
+    <img class="logo" src="webdevelop.png" alt="logo">
+    <br><br>
+    <p id="hello">Hi, My name is
+    <p id="name">Prerna</p>
+    </p>
+    <p id="hello">and I am a passionate</p>
+    <span id="element"></span><br><br>
+    <button>Contact me</button>
+  </div>
+  <hr>
+
+  <section id="skills">
+    <div class="skillssec">
+      <h2>Skills</h2>
+      <hr>
+    </div>
+
+    <article class="skill-article">
+      <div class="java">
+        <img class="image" src="java.png" alt="">
+        <h2>Java</h2><br>
+        <p>Highly motivated and detail-oriented Fresher Java with a passion for developing efficient and reliable
+          software solutions.</p>
+      </div>
+      <div class="webdevelop">
+        <img class="image" src="html.png" alt=""><br>
+        <h2>Web
+          Development</h2><br>
+        <p>Proficient in HTML, CSS, JavaScript and responsive design frameworks.</p>
+      </div>
+      <div class="python">
+        <img class="image" src="python.png" alt=""><br>
+        <h2>Python
+          Programming</h2><br>
+        <p>Highly motivated and detail-oriented Fresher Python with a passion for developing innovative solutions.
+          Skilled in writing clean and efficient code.</p>
+        </div>
+    </article>
+    <hr>
+  </section>
+
+
+  <section class="projects">
+    <div class="projectssec">
+      <h2>My Projects</h2>
+    </div>
+    <hr>
+    <div class="amazonclone">
+      <h3>Amazon Clone using HTML and CSS</h3><br>
+      <h4>Description</h4>
+      <p>This project is a simplified clone of the Amazon website, created using only HTML and CSS. It aims to replicate
+        the layout and styling of the Amazon homepage, including the navigation bar, product listings, and footer. The
+        project demonstrates proficiency in front-end development, focusing on structure, styling, and responsive
+        design.
+
+      </p>
+      <div class="image1">
+      </div><br>
+      <div class="image2">
+      </div>
+    </div>
+  </section>
+  
+  <hr>
+
+
+  <section class="contactme">
+    <div class="contact">
+      <h1>Get In Touch with Me</h1>
+    </div>
+    <hr>
+    <form>
+      <div class="form-top">
+        <input type="text" placeholder="Enter first name" required>
+        <input type="text" placeholder="Enter last name" required>
+      </div>
+
+      <div class="form-top2">
+        <input type="email" placeholder="Email" required>
+        <input type="number" placeholder="Phone Number" required>
+      </div>
+
+      <div class="form-bottom">
+        <textarea name="message" placeholder="message"></textarea>
+        <button type="submit" class="btn btn-primary">Submit Now</button>
+      </div>
+    </form>
+  </section>
+
+  <hr>
+  <footer>
+    &copy;Prerna Chawla 2024
+
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer', 'Graphic Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>

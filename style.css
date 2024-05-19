@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hind:wght@300;400;500;600;700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    background-color: #304D6D;
+    height: 8vh;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 5px;
+    color: #0A0908;
+}
+.navbar p{
+    font-family: "Young Serif", serif;
+    font-size: 25px;
+    color: #bddaf4;
+}
+.about{
+    padding-top: 4vh;
+    height: 80vh;
+    width: 100%;
+    background-color: #A7CCED;
+    text-align: center;
+}
+#element{
+    margin-top: 20px;
+    color: #044182;
+    font-size: 22px;
+    font-weight: 500;
+}
+#hello{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+#name{
+    font-size: 40px;
+    font-family: "DM Serif Display", serif;
+    color: #22333B;
+}
+.logo{
+    height: 40vh;
+    border-radius: 50px;
+}
+button{
+    height: 30px;
+    width: 120px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #22333B;
+    color: #CEC3B8;
+    font-family: "Poppins", sans-serif;;
+}
+button:hover{
+    color: #5C86B4;
+    background-color: #63ADF2;
+    color: #304D6D;
+}
+#skills{
+    text-align: center;
+}
+.skillssec{
+    color: #9FC9EE;
+    margin-top: 2.5px;
+    background-color: #304D6D;
+}
+
+.java{
+    margin-top: 2.5px;
+    padding: 2.5px;
+    background-color: #96C5EF;
+    height: 26vh;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.skill-article .image{
+    height: 50px;
+    width: auto;
+}
+.webdevelop{
+    padding: 2.5px;
+    background-color: #96C5EF;
+    height: 25vh;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.python{
+    padding: 2.5px;
+    background-color: #96C5EF;
+    height: 25vh;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.projectssec{
+    color: #9FC9EE;
+    background-color: #304D6D;
+    padding: 10px;
+}
+.projects h2{
+    text-align: center;
+}
+.contactme h1{
+    text-align: center;
+}
+.amazonclone{
+    margin-top: 2.5px;
+    background-color: #A7CCED;
+    text-align: center;
+}
+.amazonclone p{
+    margin: 1.4rem;
+}
+.amazonclone .image1{
+    height: 26rem;
+    width: 46rem;
+    background-image: url(amazon1.png);
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.amazonclone .image2{
+    height: 26rem;
+    width: 46rem;
+    background-image: url(amazon2.png);
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact{
+    color: #9FC9EE;
+    background-color: #304D6D;
+    padding: 10px;
+}
+form{
+    background-color: #96C5EF;
+    display: grid;
+    justify-content: space-around;
+}
+
+.contactme input{
+    border-radius: 5px;
+    box-shadow: #0A0908;
+    margin: 25px;
+}
+.contactme textarea{
+    border-radius: 5px;
+    margin: 25px;
+    height: 5rem;
+    width: 15rem;
+}
+.form-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    color: #9FC9EE;
+    font-size: 17px;
+    padding: 10px;
+    background-color: #304D6D;
+    text-align: center;
+}
